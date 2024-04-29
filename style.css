@@ -1,0 +1,90 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C2C;
+    color: white;
+    user-select: none;
+}
+
+.main {
+    display: flex;
+    gap: 200px;
+}
+
+.left h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.boris-image {
+    width: 300px;
+}
+
+.boris-image:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.boris-image:active {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 60px;
+    border: 4px solid white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.mid-section h4 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.mid-section p {
+    margin: 0;
+}
+
+.upgrade-img {
+    width: 55px;
+}
+
+.boris-img {
+    width: 20px;
+    height: 20px;
+}
+
+.cost-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.next-level-info {
+    position: absolute;
+    right: -105px;
+    background-color: rgb(90, 89, 90);
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    display: none;
+}
+
+.upgrade:hover .next-level-info {
+    display: block;
+}
+
+.upgrade:hover {
+    cursor: pointer;
+}
