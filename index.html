@@ -10,10 +10,11 @@
     <section>
         <div class="main">
             <div class="left">
-                <h3>ozunga: <span class="boris-cost">500</span></h3>
-                <img src="./assets/boris.jpg" alt="" srcset="" class="boris-image" onclick="incrementBoris()" draggable="false">
+                <h3>ozunga: <span class="boris-cost">1000</span></h3>
+                <img src="./assets/boris.png" alt="" srcset="" class="boris-image" onclick="incrementBoris()" draggable="false">
             </div>
             <div class="right">
+
                 <div class="upgrade" onclick="buyDima()">
                     <div class="left-section">
                         <img src="./assets/dimas.jpg" alt="" class="upgrade-img">
@@ -22,17 +23,65 @@
                         <h4>dima double n</h4>
                         <div class="cost-info">
                             <p>Cost: <span class="dima-cost">10</span></p>
-                            <img src="./assets/boris.jpg" alt="" srcset="" class="boris-img">
+                            <img src="./assets/boris.png" alt="" srcset="" class="boris-img">
                         </div>
                     </div>
                     <div class="right-section">Level <span class="dima-level">0</span></div>
 
                     <div class="next-level-info">
                         <p>
-                            +<span class="dima-increase">1</span> ozunga <br /> per second
+                            +<span class="dima-increase">1</span> ozunga <br /> per click
                         </p>
                     </div>
                 </div>
+
+                <div class="upgrade" onclick="buyDimadoubleg()">
+                    <div class="left-section">
+                        <img src="./assets/dimadoubleg.jpg" alt="" class="upgrade-img">
+                    </div>
+                    <div class="mid-section">
+                        <h4>dima double g</h4>
+                        <div class="cost-info">
+                            <p>Cost: <span class="dimadoubleg-cost">130</span></p>
+                            <img src="./assets/boris.png" alt="" srcset="" class="boris-img">
+                        </div>
+                    </div>
+                    <div class="right-section">Level <span class="dimadoubleg-level">0</span></div>
+
+                    <div class="next-level-info">
+                        <p>
+                            +<span class="dimadoubleg-increase">4</span> ozunga <br /> per second
+                        </p>
+                    </div>
+                </div>
+
+                <div class="upgrade" onclick="buyDogTM()">
+                    <div class="left-section">
+                        <img src="./assets/dogTM.jpg" alt="" class="upgrade-img">
+                    </div>
+                    <div class="mid-section">
+                        <h4>dogTM</h4>
+                        <div class="cost-info">
+                            <p>Cost: <span class="dogTM-cost">850</span></p>
+                            <img src="./assets/boris.png" alt="" srcset="" class="boris-img">
+                        </div>
+                    </div>
+                    <div class="right-section">Level <span class="dogTM-level">0</span></div>
+
+                    <div class="next-level-info">
+                        <p>
+                            +<span class="dogTM-increase">24</span> ozunga <br /> per second
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="statistics">
+            <div class="texts">
+                <p>OPC:  <span id="opc-text">1</span></p>
+                <p>OPS:  <span id="ops-text">0</span></p>
             </div>
         </div>
     </section>

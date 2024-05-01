@@ -7,6 +7,7 @@ body {
     background-color: #2C2C2C;
     color: white;
     user-select: none;
+    position: relative;
 }
 
 .main {
@@ -44,6 +45,7 @@ body {
     padding: 10px 16px;
     border-radius: 5px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .mid-section h4 {
@@ -87,4 +89,24 @@ body {
 
 .upgrade:hover {
     cursor: pointer;
+}
+
+.statistics {
+    position: absolute;
+    bottom: 0;
+    width: 450px;
+    padding: 30px;
+    border: 2px white solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.texts {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
 }
